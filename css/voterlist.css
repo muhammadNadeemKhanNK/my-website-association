@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+
+body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 10px;
+      /* line-height: 1;
+      color: #333;
+      background-image: url(/image/sshai-log-120722.png);
+      background-color: #6a381f;
+      background-blend-mode: overlay;
+      background-size: auto; */
+
+}
+/* 
+header,
+.sshai-logo,
+h1 {
+      background-color: #774e24;
+      color: #fff;
+      display: flex;
+      margin-left: 0px;
+      align-items: center;
+      font-size: 45px;
+      font-weight: bolder;    
+}
+
+header {
+      border-bottom: 2px solid black; */
+
+.main-container {
+      display: grid;
+      grid-template-columns: 3fr 3fr 30fr 3fr 3fr 3fr 3fr 3fr;
+      /* grid-auto-rows: minmax(100px auto); */
+      /* max-width: 822px; */
+      margin: 1px auto;
+      padding: 10px;   
+      
+
+}
+.member_details {
+      background-color: #774e24;
+      color: white;
+      font-size: 12px;
+      padding: 10px;
+      border: 1px solid black;
+
+
+}

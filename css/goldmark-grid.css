@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  line-height: 1;
+  color: #333;
+  background-image: url(/image/sshai-log-120722.png);
+  /* background-repeat: no-repeat; */
+  background-color: #6a381f;
+  background-blend-mode: overlay;
+  background-size: auto;
+  
+}
+
+header, .sshai-logo, h1 {    
+  background-color: #774e24;
+  color: #fff;
+  display: flex;
+  margin-left: 0px;
+  align-items: center;
+  font-size: 45px;
+  font-weight: bolder;  
+}
+
+header {
+  border-bottom: 2px solid black;
+}
+
+section {  
+  max-width: 943px;
+  border: 2px solid black;  
+  margin: 5px auto;
+  padding: 30px;
+  background-color: #774e24;
+  color: #fff;
+  font-size: 25px;
+  padding: 5px;
+  text-transform: capitalize;
+  line-height: 35px;
+  /* display: contents; */   
+}
+
+div.rules {
+  text-align: center;
+  padding: 5px 0 5px 0;
+}
+
+.ref-meeting .meeting-proceedings {
+  text-align: justify;
+  font-size: 18px;
+  text-transform: none;
+  line-height: 25px;
+
+}
+
+.grid-members {
+  max-width: 822px;
+  margin: 1px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 20fr 30fr;
+  grid-auto-rows: minmax(100px auto);
+}
+.grid-members-item {
+  background-color: #774e24;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.grid-members-item:nth-of-type(1) {
+  grid-column: 1 / span 3;
+}
+
+.ec-commission {
+  max-width: 822px;
+  margin: 1px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 15fr 30fr 30fr;
+  grid-auto-rows: minmax(100px auto);
+
+}
+
+.ec-members {
+  background-color: #774e24;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.ec-members:nth-of-type(1) {
+  grid-column: 1 / span 4;
+}
+
+
+.grid-container {
+  max-width: 960px;
+  margin: 1px auto;
+  padding: 10px;
+  display: grid;  
+  grid-template-columns: 2fr 4fr 6fr 30fr;  
+  grid-auto-rows: minmax(100px auto);
+
+}
+
+.item {
+  background-color: #774e24;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid black;
+ 
+}
+
+.item:nth-of-type(1) {
+  grid-column: 1 / span 4;
+}
+
+li {
+  list-style: decimal;
+  list-style-position: inside;
+  padding: 3px;
+  text-indent: 20px;
+  
+}
+
+.important {
+  background-color: #dcab6b;
+  color: #000;
+}

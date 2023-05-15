@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+:root{
+/*Body Color*/
+    /* --USER_BODY_BACKGROUND_COLOUR: #072AC8; */
+    --USER_BODY_BACKGROUND_COLOUR: #1655dd;
+/* Strip Color*/
+    /* --USERS_MAINBACKGROUND_COLOUR: #1E96FC; */
+    --USERS_MAINBACKGROUND_COLOUR: #2981d3;
+/* Writing Color */
+    /* --USERS_MAINFOREGROUND_COLOUR: #ffffff; */
+    --USERS_MAINFOREGROUND_COLOUR: #ffffff;
+/* Table Heading Color */
+    /* --USERS_TABLE_HEADING_COLOUR: #5aa9e6; */
+    --USERS_TABLE_HEADING_COLOUR: #2254b1;
+/* Table Row Color */
+    /* --USER_TABEL_ROW_COLOUR: #A2D6F9; */
+    --USER_TABEL_ROW_COLOUR: #2e6aad;
+/* Odd Row Background Color*?*/
+    --USER_TABLE_ODD_ROW_COLOUR: #ffe169;
+/* Caption Color*/
+    --USER_CAPTION_COLOUR: #0089e5;
+/* Border Color*/
+    --USERS_BORDER_COLOUR: #fcf300;
+}
+
+
+ 
+body {
+    background-color: var(--USER_BODY_BACKGROUND_COLOUR);
+    color: var(--USERS_MAINFOREGROUND_COLOUR)
+    
+}
+
+header {
+    padding-top: 15px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    background-color: var(--USERS_MAINBACKGROUND_COLOUR);
+    color: var(--USERS_MAINFOREGROUND_COLOUR);
+    border-bottom: .5px soild lightsteelblue;
+}
+
+.inside-headings {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 15px;
+    padding: 10;
+    background-color: var(--USERS_MAINBACKGROUND_COLOUR);
+    color: var(--USERS_MAINFOREGROUND_COLOUR);
+    border: 4px solid #ffc600;
+}
+
+.table-place {
+    text-align: center;
+    padding-left: 1vh;
+    align-self: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+address {
+    font-size: x-large;
+}
+. ref-dgto-rules p ol li {
+    background-color: bisque;
+}
+
+table {
+    border: 2px solid var(--USERS_BORDER_COLOUR);
+}
+
+
+table, caption, tr, th, td {
+    margin: 0;
+    border: 1px solid var(--USERS_BORDER_COLOUR) ;
+    border-collapse: collapse;
+    padding: 10px 0 10px 0;
+}
+
+table tbody tr td ul dl dd li {
+    /* color:#fcf300; */
+    text-indent: 35px;
+    list-style-position: inside;
+}
+
+table tbody tr td ol dl dd li {
+    text-indent: 35px;
+    list-style-position: inside;
+}
+
+th {
+    background-color: var(--USERS_TABLE_HEADING_COLOUR);
+}
+
+ul dd dd li {
+    background-color: #fcf300;
+}
+caption {
+    font-size: larger;
+    font-weight: 800;
+    word-spacing: 1.5px;
+    background-color: var(--USER_CAPTION_COLOUR);
+}
+
+tr:nth-child(odd) {    
+    /* color: var(--USERS_MAINFOREGROUND_COLOUR); */
+    /* font-weight: bold; */
+    background-color: var(--USER_TABLE_ODD_ROW_COLOUR)
+    color: #000;
+    font-weight: bold;
+}
+
+abbr {
+    padding: 3px;
+    font-weight: 600;
+}
+
+p a {
+    font-size: 25px;    
+    margin: 25px;   
+    color: white;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #fcf300;
+    text-decoration: underline;
+}

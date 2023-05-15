@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  line-height: 1;
+  color: #333;
+  background-image: url(/image/sshai-log-120722.png);  
+  background-color: #6a381f;
+  background-blend-mode: overlay;
+  background-size: auto;
+  
+}
+
+header, .sshai-logo, h1 {    
+  background-color: #774e24;
+  color: #fff;
+  display: flex;
+  margin-left: 0px;
+  align-items: center;
+  font-size: 45px;
+  font-weight: bolder;  
+  /* background-image: url(/image/wood-texture.jpg); */
+}
+
+header {
+  border-bottom: 2px solid black;
+  
+}
+
+section {  
+  max-width: 943px;
+  border: 2px solid black;  
+  margin: 5px auto;
+  padding: 30px;
+  background-color: #774e24;
+  color: #fff;
+  font-size: 25px;
+  padding: 5px;
+  text-transform: capitalize;
+  line-height: 35px;
+  /* background-image: url(/image/wood-texture.jpg); */
+
+}
+
+div.rules {
+  text-align: center;
+  padding: 5px 0 5px 0;
+}
+
+
+
+.committee-container {
+  display: grid;  
+  grid-template-columns: 0.1fr .5fr .2fr;
+  margin: 1% 5%;
+  justify-content: center;
+ 
+}
+/* <div class="committee-container"><div class="members-names">1.</div> */
+
+.members-names {  
+  border: 1px solid black;
+  font-size: 18px;
+}
